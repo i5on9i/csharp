@@ -1,0 +1,17 @@
+﻿refactoring
+
+gui 한 화면에 들어가도록 수정
+
+
+- position limit 바뀐 내용을 orderDataTable 에 표시해줘야 할 듯.
+- order table 의 column 의 내용을 Input 처럼 일정하게 맞춰야 하나?
+- stop loss 의 minmum 을 정해야 하나? 필요없을 듯, 소수점 아래자리도 계산이 가능하니.
+
+
+- read 가 끝난후에 stop 버튼 비활성화
+
+
+/////
+- 사용법 작성시 참고할 만한 곳
+http://www.codeproject.com/Articles/17823/100-Reflective-Class-Diagram-Creation-Tool
+

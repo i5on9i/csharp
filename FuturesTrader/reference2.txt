@@ -1,0 +1,54 @@
+////////////////////////////////////
+// TickReader 의 end signal 을 만들까?
+
+TickReader 쪽에서 read 가 끝난후에 end 신호를 날리도록 할 것인가?
+그렇지 않으면 종료 시점이 불문명해지긴 하지만, 크게 상관없기 때문에 일단 둔다.
+
+
+////////////////////////////////////
+// AutoResetEvent 이 필요한 이유
+
+처음에 data 가 없는 경우 queue 에서 dequeue 를 연속적으로 하다보면 뻗을 수 있다.(그렇지 않다면, thread.sleep() 을 넣어줘야 한다.)
+
+
+그래서 data read 가 한 번 동작 한 후에 
+work thread 가 동작하는 것이 낫다.
+
+하지만 data read 가 이미 동작을 시작했다면,
+계속해서 queue 에 data 를 넣을 것이고,
+
+work thread 도 계속해서 처리를 할 것이기 때문에
+굳이 thread 의 흐름이 중요해 지지 않는다.
+그러므로 AutoResetEvent 가 필요하지 않다.
+
+그런데 read 쪽에서 계속해서 set 을 하고 있기 때문에
+waitOne 에서는 기다리는 일은 처음이외에는 발생하지 않을 것이다.
+
+그런데 마지막에 가서, 마지막 loop 을 돌고 message 를 처리하고 난 후에 waitOne 에서 계속 기다리게 되는데, 이부분은 마지막 queue item 에 대한 처리가 필요하다.
+
+그래서 결론은 있어도 상관은 없고,
+있을 때 중요한 역할은
+첫 시작부분을 항상 Data Reader 가 먼저 할 수 있다는 것이다.
+
+---->
+
+그리고 TickReader 에 pause() 가 있는데,
+이 녀석이 pause 될때 event 에 Set() 이 안돼서 StrategyExecutor 가 멈추게 된다.
+하지만 queue 에 이미 전달된 message 를 처리하기 때문에
+실제로 멈추는데 걸리는 시간은 오래 걸린다.
+
+
+
+////////////////////////////////////
+// input 과 Strategy Executor 간의 통신
+
+-> 결과적으로는 queue 를 이용해서 변경될 때마다 변경되는 값만 날리기로 하였다. 그것이 훨씬 lock 시간을 줄이는 것 같다.
+
+input 과 Strategy Executor 간
+input 의 변경을 size 가 1 인 queue 를 통해 전달하기로 하자. queue 를 사용한 이유는 assign 시간에 lock 이 걸리지 않도록 하기 위해서 이며,
+(c# 에서 queue 는 reference copy 만 한다.)
+그리고 size 1개인 queue 를 통해 처리되기 전에 바뀌는 input 값에 대한 무시를 할 수 있다.
+문제는 event handler 에서 나머지 값을 그대로 가져갈 수 없다는 것이다.
+그래서 member variable 하나를 이용하려 한다.
+
+

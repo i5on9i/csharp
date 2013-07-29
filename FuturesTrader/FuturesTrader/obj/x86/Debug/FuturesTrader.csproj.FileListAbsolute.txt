@@ -1,0 +1,19 @@
+C:\Users\namh\AppData\Local\Temporary Projects\FuturesTrader\bin\Debug\FuturesTrader.exe
+C:\Users\namh\AppData\Local\Temporary Projects\FuturesTrader\bin\Debug\FuturesTrader.pdb
+C:\Users\namh\AppData\Local\Temporary Projects\FuturesTrader\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\namh\AppData\Local\Temporary Projects\FuturesTrader\obj\x86\Debug\FuturesTrader.Main.resources
+C:\Users\namh\AppData\Local\Temporary Projects\FuturesTrader\obj\x86\Debug\FuturesTrader.Properties.Resources.resources
+C:\Users\namh\AppData\Local\Temporary Projects\FuturesTrader\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\namh\AppData\Local\Temporary Projects\FuturesTrader\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\namh\AppData\Local\Temporary Projects\FuturesTrader\obj\x86\Debug\FuturesTrader.exe
+C:\Users\namh\AppData\Local\Temporary Projects\FuturesTrader\obj\x86\Debug\FuturesTrader.pdb
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Debug\FuturesTrader.exe
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Debug\FuturesTrader.pdb
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Debug\FuturesTrader.Properties.Resources.resources
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\bin\Debug\FuturesTrader.exe
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\bin\Debug\FuturesTrader.pdb
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Debug\FuturesTrader.MainForm.resources
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\bin\Debug\FuturesTrader.exe.config

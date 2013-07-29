@@ -1,0 +1,9 @@
+d:\mine\programming\c#\Projects\UITest\UITest\bin\Release\UITest.exe
+d:\mine\programming\c#\Projects\UITest\UITest\bin\Release\UITest.pdb
+d:\mine\programming\c#\Projects\UITest\UITest\obj\x86\Release\ResolveAssemblyReference.cache
+d:\mine\programming\c#\Projects\UITest\UITest\obj\x86\Release\UITest.Form1.resources
+d:\mine\programming\c#\Projects\UITest\UITest\obj\x86\Release\UITest.Properties.Resources.resources
+d:\mine\programming\c#\Projects\UITest\UITest\obj\x86\Release\GenerateResource.read.1.tlog
+d:\mine\programming\c#\Projects\UITest\UITest\obj\x86\Release\GenerateResource.write.1.tlog
+d:\mine\programming\c#\Projects\UITest\UITest\obj\x86\Release\UITest.exe
+d:\mine\programming\c#\Projects\UITest\UITest\obj\x86\Release\UITest.pdb

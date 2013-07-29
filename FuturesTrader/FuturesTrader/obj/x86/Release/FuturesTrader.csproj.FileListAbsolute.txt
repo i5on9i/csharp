@@ -1,0 +1,10 @@
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\bin\Release\FuturesTrader.exe
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\bin\Release\FuturesTrader.pdb
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Release\ResolveAssemblyReference.cache
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Release\FuturesTrader.MainForm.resources
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Release\FuturesTrader.Properties.Resources.resources
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Release\GenerateResource.read.1.tlog
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Release\GenerateResource.write.1.tlog
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Release\FuturesTrader.exe
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\obj\x86\Release\FuturesTrader.pdb
+d:\mine\programming\c#\Projects\FuturesTrader\FuturesTrader\bin\Release\FuturesTrader.exe.config
